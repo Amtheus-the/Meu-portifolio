@@ -1,0 +1,854 @@
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.img-info {
+    width: 870px;
+}
+
+.img-infos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centralizar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-avatar {
+    margin-top: 50px;
+    margin-bottom: 85px;
+}
+
+.roxo {
+    background-color: #6e07f3;
+}
+
+.info-pessoal {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 626px;
+}
+
+.roxo {
+    height: 650px;
+}
+
+.subtitle {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.font {
+    font-family: "europa", sans-serif;
+    line-height: 1.5;
+}
+
+.title {
+    font-weight: 800;
+}
+
+.title-info {
+    font-size: 28px;
+    margin-top: 145px;
+    margin-bottom: 24px;
+}
+
+
+.titulo-principal {
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.descricao-pessoal {
+    font-size: 18px;
+}
+
+.alinhar-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.descricao-experiencia {
+    background-color: white;
+    height: 820px;
+    border-radius: 20px;
+    width: 1210px !important;
+    margin-top: -165px;
+}
+
+.experinecia {
+    display: flex;
+    justify-content: center;
+}
+
+.circulo {
+    margin-top: 70px;
+    margin-bottom: 25px;
+    width: 70px;
+    background-color: #5be9b9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px
+}
+
+.desing {
+    width: 40px;
+}
+
+.front {
+    width: 30px;
+}
+
+.mentor {
+    width: 30px;
+}
+
+.alinhar-experiencia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.borda-right {
+    border-right: solid 1px #e6ecf8;
+}
+
+.tex-exp {
+    font-size: 21px;
+}
+
+.text-densiner {
+    width: 270px;
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.text-front {
+    width: 290px;
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.text-mentor {
+    width: 290px;
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.titulos-exp {
+    color: #6E07F3;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.linguagens-exp {
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: -10px;
+    margin-bottom: 55px;
+}
+
+.lista-exp {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+li {
+    list-style: none;
+}
+
+.projetos-recentes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 90px;
+}
+
+.projetos {
+    border-bottom: solid 1px #e7edf6;
+}
+
+
+.titulo-projeto {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 145px;
+    margin-bottom: 30px;
+}
+
+.descricao-projeto {
+    font-weight: 500;
+    font-size: 19px;
+    margin-bottom: 93px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.alinhar-projetos {
+    display: flex;
+    justify-content: center;
+}
+
+.realizados {
+    background-color: #e7edf6;
+    width: 367px !important;
+    height: 220px;
+    margin: 15px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.projeto1 {
+    background-image: url('/img/yuwork.png');
+    background-size: cover;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #141c3a;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    color: white;
+    text-align: center;
+    opacity: 0;
+    /* Inicialmente, a sobreposição é invisível */
+    transition: opacity 0.6s ease;
+    /* Transição suave de opacidade */
+}
+
+.projeto1:hover .overlay {
+    opacity: 1;
+    /* Torna a sobreposição visível no hover */
+}
+
+
+/* projeto2 */
+.projeto2 {
+    background-image: url('/img/Swell.png');
+    background-size: cover;
+
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #141c3a;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    color: white;
+    text-align: center;
+    opacity: 0;
+    /* Inicialmente, a sobreposição é invisível */
+    transition: opacity 0.6s ease;
+    /* Transição suave de opacidade */
+}
+
+.projeto2:hover .overlay {
+    opacity: 1;
+    /* Torna a sobreposição visível no hover */
+}
+
+
+.trabalhadas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px !important;
+    height: 116px;
+}
+
+.alinhar-empresas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-empresas {
+    font-size: 30px;
+    font-weight: 700;
+    width: 620px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+.alinhar-trabalhadas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+.logo1 {
+    width: 170px;
+}
+
+.roxo-pessoal {
+    background-color: #6e07f3;
+    height: 545px;
+}
+
+.alinhar-meus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo-meu {
+    font-weight: 700;
+    font-size: 31px;
+    margin-top: 145px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+
+.text-meu {
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    width: 640px;
+}
+
+.projetos-feitos {
+    background-color: white;
+    width: 380px !important;
+    height: 325px;
+    margin: 10px;
+    border-radius: 15px;
+    border: solid 2px #e6ecf8;
+}
+
+.meus {
+    margin-top: -150px;
+}
+
+.interessados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-interessados {
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 95px;
+    margin-bottom: 30px;
+}
+
+.text-interessados {
+    font-size: 19px;
+}
+
+.btn-interessados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 283px;
+    height: 55px;
+    border-radius: 30px;
+    border: solid 2px #6e07f3;
+    transition: 0.5s;
+    color: #6E07F3;
+    font-size: 20px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.btn-interessados:hover {
+    background-color: #6E07F3;
+    color: #fff;
+}
+
+.section-int {
+    border-bottom: solid 1px #e7edf6;
+}
+
+.carousel-cell {
+    width: 66%;
+    height: 500px;
+    margin-right: 10px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-cell:before {
+    display: block;
+    content: '';
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 17px !important;
+    height: 17px !important;
+    background-color: #6e07f3 !important;
+    /* background-clip: padding-box; */
+    /* border-top: 169px solid transparent; */
+    border-radius: 50%;
+}
+
+.alinhar-depoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-depoimentos {
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 145px;
+}
+
+.text-depoimentos {
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 75px;
+}
+
+.pessoa-depoimento {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.winny-depoimento {
+    font-size: 24px;
+    margin-top: 20px;
+    width: 695px;
+    text-align: center;
+}
+
+
+.carousel-indicators {
+    margin-bottom: -5rem !important;
+}
+
+.nome {
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 26px;
+}
+
+.cargo {
+    font-size: 15px;
+}
+
+.contatos {
+    background-color: #6E07F3;
+    height: 600PX;
+    margin-top: 230px;
+}
+
+.caixa {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #141c3a;
+    color: #fff;
+    width: 1188px;
+    border-radius: 20px;
+    height: 195px;
+    margin-top: -65px;
+}
+
+.alinhar-caixa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato {
+    margin-top: 100px;
+}
+
+.iniciar {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.tex-int {
+    font-size: 18px;
+    font-weight: 500;
+    width: 380px;
+    text-align: center;
+}
+
+.btn-isso {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    height: 55px;
+    border-radius: 30px;
+    border: solid 2px #5be9b9;
+    transition: 0.5s;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.btn-isso:hover {
+    background-color: #5be9b9;
+    color: #141c3a;
+}
+
+.viver {
+    color: #e2cdfd;
+    font-size: 23px;
+    width: 340px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.alinhar-rede {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rede-sociais {
+    width: 50px;
+    height: 50px;
+    background-color: #5be9b9;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-rede {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: solid 2px #b783f9;
+    transition: 0.5s;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 55px;
+    margin-bottom: 45px;
+    margin-left: 25px;
+}
+
+.btn-rede:hover {
+    background-color: #fff;
+    border: solid 2px #fff;
+}
+
+
+.fa-linkedin-in {
+    width: 20px;
+}
+
+.whatsapp {
+    width: 20px;
+    color: #6E07F3 !important;
+}
+
+.fa-envelope {
+    width: 20px;
+}
+
+.navbar-expand-lg {
+    height: 80px;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0 !important;
+    align-items: center;
+}
+
+.estados-unidos {
+    width: 30px;
+    margin-left: 30px;
+    margin-right: 70px;
+    display: flex
+}
+
+.btn-diga {
+    width: 100px;
+    height: 45px;
+    border-radius: 20px;
+    border: solid 2px #6e07f3;
+    color: #6e07f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.btn-diga:hover {
+    background-color: #6e07f3;
+    border: solid 2px #6e07f3;
+    color: #fff;
+}
+
+.cor-vav {
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.white {
+    background-color: white !important;
+}
+
+@media (max-width: 600px) {
+
+    /* .section-1 */
+    .titulo-principal {
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .title {
+        font-weight: 700;
+    }
+
+    .subtitle {
+        font-size: 19px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .img-avatar {
+        width: 150px;
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+
+    .img-info {
+        width: 360px;
+    }
+
+    /* fim .section-1 */
+
+    /* .section-roxo */
+    .title-info {
+        font-size: 22px;
+        margin-top: 75px;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+
+    .borda-right {
+        display: n;
+    }
+
+    /* fim-section-rox */
+
+    /* section-projeto */
+    .experinecia {
+        height: 132rem;
+    }
+
+    .titulo-projeto {
+        font-weight: 700;
+        font-size: 22px;
+        margin-top: 145px;
+        margin-bottom: 30px;
+    }
+
+    .descricao-projeto {
+        font-weight: 500;
+        width: 350px;
+        font-size: 19px;
+        margin-bottom: 58px;
+        text-align: center;
+    }
+
+    /* fim-section-projeto */
+
+    /* section-empresas */
+    .titulo-empresas {
+        font-size: 19px;
+        font-weight: 700;
+        width: 340px;
+        text-align: center;
+        margin-top: 75px;
+        margin-bottom: 80px;
+    }
+
+    .trabalhadas {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 190px !important;
+        height: 80px;
+    }
+
+    .logo1 {
+        width: 100px;
+    }
+
+    /* fim-section-empresas */
+
+    /* section-roxo-pessoal */
+    .titulo-meu {
+        font-weight: 700;
+        font-size: 23px;
+        margin-top: 75px;
+        margin-bottom: 30px;
+        color: white;
+    }
+
+    .text-meu {
+        font-weight: 400;
+        font-size: 19px;
+        color: white;
+        width: 341px;
+    }
+
+    /* fim-section-roxo-pessoal */
+
+    /* section-int */
+    .titulo-interessados {
+        font-weight: 700;
+        font-size: 19px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+
+    .text-interessados {
+        font-size: 19px;
+        text-align: center;
+        width: 370px;
+    }
+
+    .btn-interessados {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 283px;
+        height: 55px;
+        border-radius: 30px;
+        border: solid 2px #6e07f3;
+        transition: 0.5s;
+        color: #6E07F3;
+        font-size: 20px;
+        margin-top: 45px;
+        margin-bottom: 95px;
+    }
+
+    /* section-int */
+
+    /* section-depoimentos */
+    .titulo-depoimentos {
+        font-size: 22px;
+        font-weight: 700;
+        margin-top: 80px;
+    }
+
+    .text-depoimentos {
+        font-size: 19px;
+        font-weight: 400;
+        margin-top: 20px;
+        margin-bottom: 75px;
+        text-align: center;
+    }
+
+    .winny-depoimento {
+        font-size: 18px;
+        margin-top: 40px;
+        width: 337px;
+        text-align: center;
+    }
+     /* fim-section-depoimentos*/
+
+     .caixa {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #141c3a;
+        color: #fff;
+        width: 370px;
+        border-radius: 20px;
+        height: 355px;
+        margin-top: -65px;
+        flex-direction: column;
+    }
+
+    .iniciar {
+        margin-top: 60px;
+        margin-bottom: 40px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .tex-int {
+        font-size: 16px;
+        font-weight: 500;
+        width: 324px;
+        text-align: center;
+    }
+
+    .btn-isso {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 260px;
+        height: 55px;
+        border-radius: 30px;
+        border: solid 2px #5be9b9;
+        transition: 0.5s;
+        color: #fff;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 45px;
+    }
+
+    
+
+}
