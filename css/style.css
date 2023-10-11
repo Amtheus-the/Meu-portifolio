@@ -873,4 +873,13 @@ a {
         margin-left: 0px;
     }
 
+    .experinecia{
+        max-width: 390px !important; /* ou qualquer outra largura desejada */
+        margin: 0 auto !important; /* centralizar o conteúdo na página */
+    }
+
+    .borda-right{
+        border: 0px;
+    }
+
 }
