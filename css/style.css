@@ -224,14 +224,13 @@ a {
     width: 367px !important;
     height: 220px;
     margin: 15px;
-    border-radius: 10px;
+    border-radius: 20px;
     position: relative;
 }
 
 .projeto1 {
-    background-image: url('/img/yuwork.png');
+    
     background-size: cover;
-
 }
 
 .overlay {
@@ -258,15 +257,6 @@ a {
 .projeto1:hover .overlay {
     opacity: 1;
     /* Torna a sobreposição visível no hover */
-}
-
-
-/* projeto2 */
-.projeto2 {
-    background-image: url('/img/Swell.png');
-    background-size: cover;
-
-
 }
 
 .overlay {
